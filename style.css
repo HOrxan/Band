@@ -1,0 +1,112 @@
+body {
+  box-sizing: border-box;
+  font: 400 15px/1.8 Lato, sans-serif;
+}
+
+* {
+  transition: 1s;
+}
+
+h3 {
+  letter-spacing: 10px;
+  margin: 75px 0 25px 0;
+}
+
+img {
+  width: 100%;
+}
+
+.blog {
+  margin-bottom: 100px;
+  margin-top: 0;
+}
+
+p {
+  line-height: 30px;
+  color: grey;
+}
+
+h2 {
+  color: grey;
+}
+
+a {
+  color: grey;
+}
+a:hover {
+  color: grey;
+}
+
+h4 {
+  margin: 50px;
+}
+
+img[src="bandmember.jpg"] {
+  width: 240px;
+  border: 10px solid white;
+  filter: opacity(75%);
+}
+img[src="bandmember.jpg"]:hover {
+  border: 10px solid lightgrey;
+}
+
+.tour-dates {
+  background-color: #333333;
+}
+.tour-dates h3 {
+  color: white;
+}
+
+.img-content {
+  background-color: white;
+  margin-bottom: 100px;
+}
+.img-content img + p {
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+  margin: 10px;
+}
+
+.btn {
+  background-color: #333;
+  border-radius: 0;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.col-sm-6 {
+  margin: 2%;
+  border-radius: 0;
+  width: 46%;
+}
+
+.col-sm-8 {
+  border-radius: 0;
+}
+.col-sm-8 textarea {
+  border-radius: 0;
+  resize: none;
+}
+
+.btn-right {
+  float: right;
+  margin-right: 15px;
+}
+
+footer {
+  background-color: #333;
+  padding: 30px;
+}
+footer span, footer p, footer a {
+  padding-block: 15px;
+  color: white;
+}
+footer a:hover {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
